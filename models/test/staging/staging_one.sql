@@ -1,0 +1,1 @@
+select * from 'test-bigquery.test.staging_one.sql'

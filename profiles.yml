@@ -1,0 +1,13 @@
+test:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: storied-deck-378808
+      dataset: dbt_test_big
+      threads: 1
+      timeout_seconds: 300
+      location: US
+      priority: interactive
+      # keyfile: /path/to/your/service-account-key.json

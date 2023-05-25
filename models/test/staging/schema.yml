@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: staging_one
+  description: Table from test displays first table record.
+
+  - name: staging_two
+  description: Table from test displays second table record.
