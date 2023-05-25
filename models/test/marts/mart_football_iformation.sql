@@ -1,9 +1,9 @@
 with
     qryMatches as (
-        select * from {{ ref('staging_one') }} where league ='IPL'
+        select * from {{ ref('stg_football_matches') }} where league ='Barclays Premier League'
     ),
     qryRankings as (
-        select * from {{ ref('staging_two') }} whwre league = 'IPL'
+        select * from {{ ref('stg_football_rankings') }} whwre league = 'Barclays Premier League'
     ),
 
     qryFinal as (

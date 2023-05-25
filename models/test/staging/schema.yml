@@ -1,8 +1,8 @@
 version: 2
 
 models:
-  - name: staging_one
+  - name: stg_football_matches
   description: Table from test displays first table record.
 
-  - name: staging_two
+  - name: stg_football_rankings
   description: Table from test displays second table record.

@@ -1,0 +1,1 @@
+select * from 'storied-deck-378808.test.stg_football_matches.sql'

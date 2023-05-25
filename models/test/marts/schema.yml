@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: marts_one
+  - name: mart_football_iformation
   description: Table that displays imp matches allong with each team's world ranking.

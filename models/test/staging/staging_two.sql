@@ -1,1 +1,0 @@
-select * from 'test-bigquery.test.staging_two.sql'
